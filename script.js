@@ -1,5 +1,146 @@
 let maquinas= [
     {
+        id: 3,
+        nombre: "Set Espatula y Pincel Silicona",
+        precio: 650,
+        img: "./assets/img/setpincelespatula.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 4,
+        nombre: "Cuchillo Tramontina 8'",
+        precio: 1100,
+        img: "./assets/img/cuchillotramontina8.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cepillo Pelo",
+        precio: 1000,
+        img: "./assets/img/cepillopelo.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Auriculares Samsung AKG",
+        precio: 800,
+        img: "./assets/img/auricularesakg.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Auriculares Samsung",
+        precio: 700,
+        img: "./assets/img/auricularesamsung.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Auriculares Beats",
+        precio: 400,
+        img: "./assets/img/auricularesbeats.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cable Carga Rapida Tipo C 3.1A",
+        precio: 600,
+        img: "./assets/img/cabletipoc.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cable Carga Rapida Normal 3.1A",
+        precio: 600,
+        img: "./assets/img/cablenormal.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cargador Cable Desmontable Normal 2.1A",
+        precio: 850,
+        img: "./assets/img/cargadornormal.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 6,
+        nombre: "Soldador Estaño",
+        precio: 1150,
+        img: "./assets/img/soldadordeestaño.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 3,
+        nombre: "Pinza Universal 8'",
+        precio: 1600,
+        img: "./assets/img/pinza8.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cinta Metrica 3 Metros",
+        precio: 750,
+        img: "./assets/img/cintametrica3m.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Cinta Metrica 5 Metros",
+        precio: 950,
+        img: "./assets/img/cintametrica5m.jpeg",
+        stock: "En Stock"
+    },
+        
+    {
+        id: 7,
+        nombre: "Guantes Invierno Nene/a",
+        precio: 700,
+        img: "./assets/img/guantesniños.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 10,
+        nombre: "Guantes Polar Sport",
+        precio: 1300,
+        img: "./assets/img/gau.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 9,
+        nombre: "Guantes FOX Bici/Moto",
+        precio: 1900,
+        img: "./assets/img/guantesfox.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 10,
+        nombre: "Guantes Polar Impermeable",
+        precio: 2000,
+        img: "./assets/img/guantescamuflado.jpeg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 8,
+        nombre: "Soporte Tv Movible 14 a 55' ",
+        precio: 6000,
+        img: "./assets/img/soportemovil.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 8,
+        nombre: "Soporte Tv Fijo 14 a 42' ",
+        precio: 2500,
+        img: "./assets/img/soportefijochico.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 9,
+        nombre: "Patillera Recargable",
+        precio: 3600,
+        img: "./assets/img/patillerat9.jpg",
+        stock: "Por Encargue"
+    },
+    {
         id: 1,
         nombre: "Cree Led C6 Mini H4",
         precio: 3200,
@@ -14,6 +155,20 @@ let maquinas= [
         stock: "En Stock"
     },
     {
+        id: 11,
+        nombre: "Cree Led S6 HD H4",
+        precio: 4500,
+        img: "./assets/img/creeled-s6hd.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 11,
+        nombre: "Cree Led S6 HD H7",
+        precio: 4500,
+        img: "./assets/img/creeled-s6hd.jpg",
+        stock: "Por Encargue"
+    },
+    {
         id: 3,
         nombre: "Paño Microfibra Limpieza 40x40",
         precio: 500,
@@ -21,10 +176,31 @@ let maquinas= [
         stock: "En Stock"
     },
     {
-        id: 4,
-        nombre: "Cuchillo Tramontina 8'",
-        precio: 1100,
-        img: "./assets/img/cuchillotramontina8.jpg",
+        id: 12,
+        nombre: "Juego de Alfombra 4 Piezas",
+        precio: 2500,
+        img: "./assets/img/alfombra4piezas.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 12,
+        nombre: "Juego de Alfombra 3 Piezas",
+        precio: 3300,
+        img: "./assets/img/alfombra3piezas.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 3,
+        nombre: "Pino Aromatizante Auto",
+        precio: 400,
+        img: "./assets/img/pino.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 3,
+        nombre: "Shampoo Siliconado Auto",
+        precio: 1200,
+        img: "./assets/img/shampoosiliconado.jpeg",
         stock: "En Stock"
     },
     {
@@ -32,55 +208,6 @@ let maquinas= [
         nombre: "Cubre Volante y Cinturon",
         precio: 2450,
         img: "./assets/img/cubrevolanteycinturon.jpg",
-        stock: "En Stock"
-    },
-    {
-        id: 6,
-        nombre: "Soldador Estaño",
-        precio: 1150,
-        img: "./assets/img/soldadordeestaño.jpg",
-        stock: "En Stock"
-    },
-    {
-        id: 7,
-        nombre: "Guantes Invierno Nene/a",
-        precio: 700,
-        img: "./assets/img/guantesniños.jpg",
-        stock: "En Stock"
-    },
-    {
-        id: 8,
-        nombre: "Soporte Tv Movible 14 a 55' ",
-        precio: 6000,
-        img: "./assets/img/soportemovil.jpg",
-        stock: "Por Encargue"
-    },
-    {
-        id: 9,
-        nombre: "Patillera Recargable",
-        precio: 3600,
-        img: "./assets/img/patillerat9.jpg",
-        stock: "Por Encargue"
-    },
-    {
-        id: 9,
-        nombre: "Guantes FOX Bici/Moto",
-        precio: 1900,
-        img: "./assets/img/guantesfox.jpg",
-        stock: "Por Encargue"
-    },
-    {
-        id: 10,
-        nombre: "Guantes Polar Sport",
-        precio: 1300,
-        img: "./assets/img/gau.jpg",
-        stock: "Por Encargue"
-    },
-    {
-        id: 11,
-        nombre: "Cree Led S6 HD H4",
-        precio: 4500,
-        img: "./assets/img/creeled-s6hd.jpg",
         stock: "En Stock"
     },
 ]
