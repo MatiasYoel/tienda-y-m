@@ -10,7 +10,10 @@ nav {
 .imagen{
     max-width:100%;
 }
-
+.logo{
+	width: 200px;
+	height: 200px;
+}
 a{
     cursor:pointer;
 }
