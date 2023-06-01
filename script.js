@@ -56,6 +56,13 @@ let maquinas= [
         stock: "Por Encargo"
     },
     {
+        id: 3,
+        nombre: "Lampara Flexible Led",
+        precio: 700,
+        img: "./assets/img/lamparamini.jpeg",
+        stock: "Por Encargo"
+    },
+    {
         id: 4,
         nombre: "Auriculares Samsung AKG",
         precio: 800,
