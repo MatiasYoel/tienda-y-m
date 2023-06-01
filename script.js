@@ -1,76 +1,175 @@
 let maquinas= [
     {
-        id: 3,
-        nombre: "Set Espatula y Pincel Silicona",
-        precio: 650,
-        img: "./assets/img/setpincelespatula.jpeg",
-        stock: "En Stock"
-    },
-    {
-        id: 4,
+        id: 1,
         nombre: "Cuchillo Tramontina 8'",
         precio: 1100,
         img: "./assets/img/cuchillotramontina8.jpg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 2,
+        nombre: "Batidor Cafe",
+        precio: 990,
+        img: "./assets/img/batidorcafe.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 2,
+        nombre: "Set Espatula y Pincel Silicona",
+        precio: 650,
+        img: "./assets/img/setpincelespatula.jpeg",
+        stock: "En Stock"
+    },
+    {
+        id: 32,
+        nombre: "Pava Electrica 2Ltrs Corte Mate",
+        precio: 6900,
+        img: "./assets/img/pavaelectricamate.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 32,
+        nombre: "Pava Electrica 2Ltrs Corte Mate Colores",
+        precio: 8990,
+        img: "./assets/img/pavaelectricamatecolores.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 32,
+        nombre: "Pava Electrica 2Ltrs",
+        precio: 5990,
+        img: "./assets/img/pavaelectrica2l.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 3,
         nombre: "Cepillo Pelo",
-        precio: 1000,
+        precio: 990,
         img: "./assets/img/cepillopelo.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 3,
+        nombre: "Cepillo Secador",
+        precio: 6990,
+        img: "./assets/img/cepillosecador.jpg",
+        stock: "Por Encargo"
+    },
+    {
+        id: 4,
         nombre: "Auriculares Samsung AKG",
         precio: 800,
         img: "./assets/img/auricularesakg.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 5,
         nombre: "Auriculares Samsung",
         precio: 700,
         img: "./assets/img/auricularesamsung.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 6,
         nombre: "Auriculares Beats",
         precio: 400,
         img: "./assets/img/auricularesbeats.jpeg",
         stock: "En Stock"
     },
+    
     {
-        id: 12,
+        id: 6,
+        nombre: "Auriculares Inalambricos i12",
+        precio: 3490,
+        img: "./assets/img/auricularesinalambricosi12.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 6,
+        nombre: "Auriculares Vincha Bluetooth",
+        precio: 2890,
+        img: "./assets/img/auricularesvinchap47bt.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 6,
+        nombre: "Auriculares Gamer Noga",
+        precio: 3890,
+        img: "./assets/img/auricularstormergamer.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 7,
         nombre: "Cable Carga Rapida Tipo C 3.1A",
         precio: 600,
         img: "./assets/img/cabletipoc.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 8,
         nombre: "Cable Carga Rapida Normal 3.1A",
         precio: 600,
         img: "./assets/img/cablenormal.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 9,
         nombre: "Cargador Cable Desmontable Normal 2.1A",
         precio: 850,
         img: "./assets/img/cargadornormal.jpeg",
         stock: "En Stock"
     },
     {
-        id: 6,
+        id: 34,
+        nombre: "SmartWatch W22 PRO",
+        precio: 9490,
+        img: "./assets/img/smartwatchw22pro.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 35,
+        nombre: "SmartWatch D18",
+        precio: 3890,
+        img: "./assets/img/smartredondod18.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 36,
+        nombre: "SmartWatch D20",
+        precio: 3990,
+        img: "./assets/img/smartcuadradod20.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 37,
+        nombre: "SmartBand M4",
+        precio: 2590,
+        img: "./assets/img/smartm4.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 33,
+        nombre: "Teclado Gamer Retroiluminado",
+        precio: 2600,
+        img: "./assets/img/tecladogamer.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 10,
         nombre: "Soldador Estaño",
         precio: 1150,
         img: "./assets/img/soldadordeestaño.jpg",
         stock: "En Stock"
     },
     {
-        id: 3,
+        id: 13,
+        nombre: "Timbre Inalambrico",
+        precio: 2100,
+        img: "./assets/img/timbreinalambrico.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 11,
         nombre: "Pinza Universal 8'",
         precio: 1600,
         img: "./assets/img/pinza8.jpeg",
@@ -84,132 +183,190 @@ let maquinas= [
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 13,
         nombre: "Cinta Metrica 5 Metros",
         precio: 950,
         img: "./assets/img/cintametrica5m.jpeg",
         stock: "En Stock"
     },
+    {
+        id: 13,
+        nombre: "Kit Reparacion Bici",
+        precio: 1190,
+        img: "./assets/img/reparabici.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 13,
+        nombre: "Kit Reparacion Bici Estuche",
+        precio: 2290,
+        img: "./assets/img/reparabiciestuche.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 13,
+        nombre: "Cadena Moto",
+        precio: 3290,
+        img: "./assets/img/cadenamoto.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 13,
+        nombre: "Cadena Bici",
+        precio: 1390,
+        img: "./assets/img/cadenabici.jpg",
+        stock: "Por Encargue"
+    },
         
     {
-        id: 7,
+        id: 14,
         nombre: "Guantes Invierno Nene/a",
         precio: 700,
         img: "./assets/img/guantesniños.jpg",
         stock: "En Stock"
     },
     {
-        id: 10,
+        id: 15,
+        nombre: "Guantes Polar Impermeable",
+        precio: 2000,
+        img: "./assets/img/guantepolarcamuflado.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 16,
         nombre: "Guantes Polar Sport",
         precio: 1300,
         img: "./assets/img/gau.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 9,
+        id: 17,
         nombre: "Guantes FOX Bici/Moto",
         precio: 1900,
         img: "./assets/img/guantesfox.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 10,
-        nombre: "Guantes Polar Impermeable",
-        precio: 2000,
-        img: "./assets/img/guantescamuflado.jpeg",
+        id: 18,
+        nombre: "Soporte Tv Fijo 14 a 42' ",
+        precio: 2500,
+        img: "./assets/img/soportefijochico.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 19,
+        nombre: "Soporte Tv Fijo 26 a 63' ",
+        precio: 2500,
+        img: "./assets/img/soportefijogrande.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 8,
+        id: 20,
         nombre: "Soporte Tv Movible 14 a 55' ",
         precio: 6000,
         img: "./assets/img/soportemovil.jpg",
         stock: "Por Encargue"
     },
+
     {
-        id: 8,
-        nombre: "Soporte Tv Fijo 14 a 42' ",
-        precio: 2500,
-        img: "./assets/img/soportefijochico.jpeg",
-        stock: "En Stock"
-    },
-    {
-        id: 9,
+        id: 21,
         nombre: "Patillera Recargable",
         precio: 3600,
         img: "./assets/img/patillerat9.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 1,
-        nombre: "Cree Led C6 Mini H4",
+        id: 22,
+        nombre: "Cree Led Auto C6 Mini H4",
         precio: 3200,
         img: "./assets/img/creeled-c6mini.jpg",
         stock: "En Stock"
     },
     {
-        id: 2,
-        nombre: "Cree Led C6 Mini H7",
+        id: 23,
+        nombre: "Cree Led Auto C6 Mini H7",
         precio: 3200,
         img: "./assets/img/creeled-c6mini.jpg",
         stock: "En Stock"
     },
     {
-        id: 11,
-        nombre: "Cree Led S6 HD H4",
+        id: 24,
+        nombre: "Cree Led Auto S6 HD H4",
         precio: 4500,
         img: "./assets/img/creeled-s6hd.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 11,
-        nombre: "Cree Led S6 HD H7",
+        id: 25,
+        nombre: "Cree Led Auto S6 HD H7",
         precio: 4500,
         img: "./assets/img/creeled-s6hd.jpg",
         stock: "Por Encargue"
     },
     {
-        id: 3,
+        id: 26,
         nombre: "Paño Microfibra Limpieza 40x40",
         precio: 500,
         img: "./assets/img/pañomicrofibra40x40.jpg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 26,
+        nombre: "Estereo Frente Fijo Bluetooth",
+        precio: 7490,
+        img: "./assets/img/estereofijo.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 27,
         nombre: "Juego de Alfombra 4 Piezas",
         precio: 2500,
         img: "./assets/img/alfombra4piezas.jpeg",
         stock: "En Stock"
     },
     {
-        id: 12,
+        id: 28,
         nombre: "Juego de Alfombra 3 Piezas",
         precio: 3300,
         img: "./assets/img/alfombra3piezas.jpeg",
         stock: "En Stock"
     },
     {
-        id: 3,
+        id: 29,
+        nombre: "Cubre Volante y Cinturon",
+        precio: 2450,
+        img: "./assets/img/cubrevolanteycinturon.jpg",
+        stock: "En Stock"
+    },
+    {
+        id: 29,
+        nombre: "Cinta Remolque Sparco",
+        precio: 3490,
+        img: "./assets/img/remolquesparco.jpg",
+        stock: "Por Encargue"
+    },
+    {
+        id: 30,
         nombre: "Pino Aromatizante Auto",
         precio: 400,
         img: "./assets/img/pino.jpeg",
         stock: "En Stock"
     },
     {
-        id: 3,
+        id: 31,
         nombre: "Shampoo Siliconado Auto",
         precio: 1200,
         img: "./assets/img/shampoosiliconado.jpeg",
         stock: "En Stock"
     },
     {
-        id: 5,
-        nombre: "Cubre Volante y Cinturon",
-        precio: 2450,
-        img: "./assets/img/cubrevolanteycinturon.jpg",
-        stock: "En Stock"
+        id: 31,
+        nombre: "Llavero Auto Tuning",
+        precio: 1090,
+        img: "./assets/img/llaverostuning.jpg",
+        stock: "Por Encargue"
     },
+   
 ]
 
 let carrito=[]

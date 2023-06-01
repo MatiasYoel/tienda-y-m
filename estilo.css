@@ -29,10 +29,11 @@ input{
     outline: none;
     border: 2px solid #131212;
 	border-radius: 15px;
-    font-weight: 600;
+    font-weight: 800;
 	align-items: center;
 	background-color: #ffffff;
-	color: rgb(230, 17, 17)
+	color: rgb(0, 0, 0);
+	font-size: 1.2rem;
 }
 .filtro{
     display: none;
